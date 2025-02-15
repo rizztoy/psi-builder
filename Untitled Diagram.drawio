@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1704" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1704" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,9 +97,6 @@
         <mxCell id="-lemN0VXjKrBAdXtaMED-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-lemN0VXjKrBAdXtaMED-128" target="-lemN0VXjKrBAdXtaMED-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-lemN0VXjKrBAdXtaMED-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=10;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-lemN0VXjKrBAdXtaMED-128" target="-lemN0VXjKrBAdXtaMED-131">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-lemN0VXjKrBAdXtaMED-128" value="Api Connection Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="413" y="-609" width="100" height="50" as="geometry" />
         </mxCell>
@@ -121,11 +118,46 @@
         <mxCell id="-lemN0VXjKrBAdXtaMED-136" value="Give Dynamic Change Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="-420" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-lemN0VXjKrBAdXtaMED-137" value="Stocks (Add-Remove)&lt;div&gt;Server(Stop-Start)&lt;/div&gt;&lt;div&gt;Command&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="-lemN0VXjKrBAdXtaMED-137" value="&lt;div&gt;Stocks (Add-Remove)&lt;/div&gt;&lt;div&gt;Server(Stop-Start)&lt;/div&gt;&lt;div&gt;Command&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="215" y="-350" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-lemN0VXjKrBAdXtaMED-138" value="Database manipulation Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="-530" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-lemN0VXjKrBAdXtaMED-143" value="Client serve module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-lemN0VXjKrBAdXtaMED-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-lemN0VXjKrBAdXtaMED-144" target="-lemN0VXjKrBAdXtaMED-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="-160" />
+              <mxPoint x="110" y="-160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lemN0VXjKrBAdXtaMED-144" value="Client GUI" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-lemN0VXjKrBAdXtaMED-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="-lemN0VXjKrBAdXtaMED-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lemN0VXjKrBAdXtaMED-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-lemN0VXjKrBAdXtaMED-138" target="-lemN0VXjKrBAdXtaMED-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="-505" />
+              <mxPoint x="-130" y="-235" />
+              <mxPoint x="30" y="-235" />
+              <mxPoint x="30" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lemN0VXjKrBAdXtaMED-148" value="Give Dynamic Change Data(Live data)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-270" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-lemN0VXjKrBAdXtaMED-150" value="&lt;div&gt;Stocks (Add-Remove)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-190" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
